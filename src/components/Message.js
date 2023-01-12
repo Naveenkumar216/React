@@ -7,6 +7,11 @@ class Message extends Component {
       message: "Welcome Visitor",
     };
   }
+  changeMessage() {
+    this.setState({
+      message: "Thank you of subscribing",
+    });
+  }
 
   render() {
     return (
