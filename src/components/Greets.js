@@ -4,6 +4,8 @@ import React from "react";
 //   return <h1>Hello Naveen</h1>;
 // }
 
+//const Greets = () => <h1>Hello Naveen</h1>;
+
 const Greets = (props) => {
   console.log(props);
   return (

@@ -2,7 +2,7 @@ import React from "react";
 
 const Hello = () => {
   //   return (
-  //     <div>
+  //     <div className:"class">
   //       <h1>HELLO NAVEEN</h1>
   //     </div>
   //   );
@@ -10,7 +10,7 @@ const Hello = () => {
 
   return React.createElement(
     "div",
-    null,
+    { id: "hello", className: "Class" },
     React.createElement("h1", null, "Hello Naveen")
   );
 };
