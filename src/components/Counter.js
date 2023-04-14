@@ -8,6 +8,7 @@ class Counter extends Component {
       count: 0,
     };
   }
+
   increment() {
     // this.setState(
     //   {
@@ -23,6 +24,7 @@ class Counter extends Component {
     }));
     console.log(this.state.count);
   }
+
   incrementFive() {
     this.increment();
     this.increment();
