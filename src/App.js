@@ -1,5 +1,5 @@
-import React from "react";
 import "./App.css";
+
 //import Form from "./components/Form";
 //import Greets from "./components/Greets";
 //import Welcome from "./components/Welcome";
@@ -21,10 +21,30 @@ import "./App.css";
 // import styles from "./appStyles.module.css";
 
 //import Form from "./components/Form";
+//import LifecycleA from "./components/LifecycleA";
+
+//import FragmentDemo from "./components/FragmentDemo";
+// import Table from "./components/Table";
+
+//import PureComp from "./components/PureComp";
+//import RegComp from "./components/RegComp";
+import ParentComp from "./components/ParentComp";
 
 function App() {
   return (
     <div className="App">
+      <ParentComp></ParentComp>
+
+      {/* <RegComp></RegComp> */}
+
+      {/* <PureComp></PureComp> */}
+
+      {/* <Table></Table> */}
+
+      {/* <FragmentDemo></FragmentDemo> */}
+
+      {/* <LifecycleA></LifecycleA> */}
+
       {/* <Form></Form> */}
 
       {/* <h1 className="error">Error</h1>
