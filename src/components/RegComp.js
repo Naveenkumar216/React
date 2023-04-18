@@ -2,7 +2,8 @@ import React, { Component } from "react";
 
 class RegComp extends Component {
   render() {
-    return <div>Regular Componenet {this.state.name}</div>;
+    console.log("Reg Comp Render");
+    return <div>Regular Componenet {this.props.name}</div>;
   }
 }
 
