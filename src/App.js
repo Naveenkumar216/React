@@ -1,4 +1,7 @@
 import "./App.css";
+import React from "react";
+//import PostList from "./components/PostList";
+import PostForm from "./components/PostForm";
 
 //import Form from "./components/Form";
 //import Greets from "./components/Greets";
@@ -37,9 +40,56 @@ import "./App.css";
 // import Hero from "./components/Hero";
 // import ErrorBoundary from "./components/ErrorBoundary";
 
+//import ClickCounter from "./components/ClickCounter";
+//import HoverCounter from "./components/HoverCounter";
+
+//import ClickCounterTwo from "./components/ClickCounterTwo";
+//import HoverCounterTwo from "./components/HoverCounterTwo";
+// import User from "./components/User";
+// import Counter1 from "./components/Counter1";
+
+// import ComponentC from "./components/ComponentC";
+// import { UserProvider } from "./components/userContext";
+
 function App() {
   return (
     <div className="App">
+      <PostForm></PostForm>
+
+      {/* <PostList></PostList> */}
+
+      {/* <ComponentC></ComponentC>
+      <UserProvider value="naveen">
+        <ComponentC></ComponentC>
+      </UserProvider> */}
+
+      {/* <Counter1>
+        {(count, incrementCount) => (
+          <ClickCounterTwo
+            count={count}
+            incrementCount={incrementCount}
+          ></ClickCounterTwo>
+        )}
+      </Counter1>
+      <Counter1>
+        {(count, incrementCount) => (
+          <HoverCounterTwo
+            count={count}
+            incrementCount={incrementCount}
+          ></HoverCounterTwo>
+        )}
+      </Counter1> */}
+
+      {/* <HoverCounterTwo></HoverCounterTwo>
+
+      <ClickCounterTwo></ClickCounterTwo>
+
+      <User render={(isLoggedIn) => (isLoggedIn ? "Naveen" : "Guest")}></User> */}
+
+      {/* <HoverCounter></HoverCounter> */}
+
+      {/* <ClickCounter name="Naveen"></ClickCounter> */}
+
       {/* <ErrorBoundary>
         <Hero heroName="Batman"></Hero>
       </ErrorBoundary>
